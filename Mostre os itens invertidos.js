@@ -1,5 +1,5 @@
-let invertidos = ["notbook", "mesa", "mouse"]
-console.log(invertidos)
-for(let i = 0; i < invertidos.length; i++ ){
-    console.log("invertidos")
+let invertidos = ["notbook", "mesa", "mouse"];
+console.log("invertidos");
+for (let i = invertidos.length - 1; i >= 0; i--) {
+    console.log(invertidos[i])
 }
